@@ -15,7 +15,7 @@ public class LetterGrade {
 		System.out.println("Enter your letter grade");
 		char grade = input.nextLine().charAt(0);
 		
-		//while loop allowing user to input grades
+		// allowing user to input different grades
 			if (grade == 'A') {
 			System.out.println("The numeric value for A is 4.0");
 			
